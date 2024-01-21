@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: hsl(210, 10%, 33%);
+}
+
+h4,h5{
+    font-size: 1.5rem;
+}
+h6{
+    font-size: 2rem;
+}
+
+p{
+    color: hsla(0, 0%, 50%, 0.575);
+    font-weight: 400;
+}
+button{
+    box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.164);
+    margin-right: 10px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.container.small.about{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.container.tech-giants{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.product{
+    display: flex;
+    gap: 100px;
+    margin: 100px 0;
+}
+
+.clipboard{
+    margin-top: 100px;
+}
+
+.clipboard p{
+    max-width: 400px;
+    padding: 1rem 0;
+}
+
+.clipboard-para{
+    width: 700px;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+}
+
+.main-header h1, .main-header p{
+    padding: 1.5rem 0;
+}
+
+.main-header p{
+    width: 600px;
+    margin: 0 auto;
+}
+.sub-header{
+    margin-top: 100px;
+}
+
+.sub-header p{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.ios-btn{
+    border: none;
+    background-color: hsl(171, 66%, 44%);
+    color: hsl(0, 0%, 100%);
+    padding: .5rem 2rem;
+    border-radius: 15px;
+}
+
+.mac-btn{
+    border: none;
+    background-color: hsl(233, 100%, 69%);
+    color: hsl(0, 0%, 100%);
+    padding: .5rem 2rem;
+    border-radius: 15px;
+}
+
+.outro p{
+    width: 600px;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+}
+
+.socials a{
+    margin-right: 20px;
+}
+
+.footer li{
+    list-style-type: none;
+}
+
+.footer a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.footer-logo{
+    width: 50px;
+}
+
+footer{
+    background-color: hsl(201, 11%, 66%);
+}

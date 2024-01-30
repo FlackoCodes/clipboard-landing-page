@@ -68,6 +68,10 @@ button{
     padding: 1.5rem 0;
 }
 
+.header{
+    background: url(../images/bg-header-desktop.png) no-repeat  center center/cover;
+}
+
 .main-header h1, .main-header p{
     padding: 1.5rem 0;
 }
@@ -95,6 +99,17 @@ button{
     font-weight: 400;
 }
 
+.ios-btn:hover{
+    background-color: hsla(171, 66%, 44%, 0.705);
+    cursor: pointer;
+    transition: all ease-in-out 3s;
+}
+
+.mac-btn:hover{
+    background-color: hsla(233, 100%, 69%, 0.705);
+    cursor: pointer;
+}
+
 .mac-btn{
     border: none;
     background-color: hsl(233, 100%, 69%);
@@ -109,6 +124,11 @@ ul{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    
+}
+ul>li>a:hover{
+    color: hsl(171, 66%, 44%);
+    transition: all ease-in-out 3s;
 }
 .outro p{
     width: 600px;

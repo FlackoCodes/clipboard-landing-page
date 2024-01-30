@@ -90,7 +90,9 @@ button{
     background-color: hsl(171, 66%, 44%);
     color: hsl(0, 0%, 100%);
     padding: .5rem 2rem;
-    border-radius: 15px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 .mac-btn{
@@ -98,9 +100,16 @@ button{
     background-color: hsl(233, 100%, 69%);
     color: hsl(0, 0%, 100%);
     padding: .5rem 2rem;
-    border-radius: 15px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .outro p{
     width: 600px;
     margin: 0 auto;
@@ -131,5 +140,5 @@ button{
 }
 
 footer{
-    background-color: hsl(201, 11%, 66%);
+    background-color: hsla(202, 11%, 66%, 0.61);
 }

@@ -21,6 +21,7 @@ ul li{
 
 img{
     max-width: 100%;
+    margin: 0 auto;
 }
 
 .main-header{
@@ -128,6 +129,35 @@ button{
 .clipboard p{
     width: 380px;
     margin: 0 auto;
+}
+
+.outro h4{
+    margin-bottom: 10px;
+}
+
+.outro p{
+    margin-bottom: 50px;
+}
+
+.outro img{
+    margin-bottom: 50px;
+}
+
+.__h3ay{
+    width: 350px;
+}
+
+.container.small{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.container.small>div{
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr;
+    gap: 15px;
 }
 
 /*

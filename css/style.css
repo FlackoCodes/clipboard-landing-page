@@ -160,6 +160,20 @@ button{
     gap: 15px;
 }
 
+.container.tech-giants{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 150px;
+}
+
+.clipboard-para{
+    width: 280px;
+    margin: 0 auto;
+}
+
 /*
 .container{
     width: 80%;

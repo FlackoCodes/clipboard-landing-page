@@ -8,6 +8,51 @@ body{
     min-height: 100vh;
     font-family: 'Bai Jamjuree', sans-serif;
     font-size: 18px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.main-header{
+    margin-bottom: 7rem;
+}
+
+span{
+    display: block;
+}
+
+.main-header h1{
+    margin-bottom: 10px;
+}
+
+.main-header p{
+    margin-bottom: 25px;
+}
+
+.main-header img{
+    margin-top: 5.5rem;
+    margin-bottom: 3rem;
+}
+
+.header{
+    background: url(../images/bg-header-mobile.png) no-repeat center center/cover;
+    margin-bottom: 3.5rem;
+}
+
+.sub-header h2{
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 15px;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -27,8 +72,65 @@ p{
 }
 button{
     box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.164);
-    margin-right: 10px;
+    margin: 15px 0;
+ }
+
+ .container{
+    padding: 1.4rem;
+ }
+
+ .ios-btn{
+    border: none;
+    background-color: hsl(171, 66%, 44%);
+    color: hsl(0, 0%, 100%);
+    padding: .5rem 2rem;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
+
+.ios-btn:hover{
+    background-color: hsla(171, 66%, 44%, 0.705);
+    cursor: pointer;
+    transition: all ease-in-out 3s;
+}
+
+.mac-btn:hover{
+    background-color: hsla(233, 100%, 69%, 0.705);
+    cursor: pointer;
+}
+
+.mac-btn{
+    border: none;
+    background-color: hsl(233, 100%, 69%);
+    color: hsl(0, 0%, 100%);
+    padding: .5rem 2rem;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+#mockup{
+    margin-bottom: 50px;
+}
+
+.clipboard{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 150px;
+}
+
+.clipboard h3{
+    margin-bottom: 10px;
+}
+
+.clipboard p{
+    width: 380px;
+    margin: 0 auto;
+}
+
+/*
 .container{
     width: 80%;
     margin: 0 auto;
@@ -85,6 +187,10 @@ button{
 }
 .sub-header{
     margin-top: 100px;
+}
+
+.sub-header h2{
+    margin-bottom: 20px;
 }
 
 .sub-header p{
@@ -150,7 +256,7 @@ ul>li>a:hover{
 }
 
 .socials a:hover{
-    filter: brightness(70%) tint(hsla(red)); /* Hover brightness and color of your choice */
+    filter: brightness(70%) tint(hsla(red)); 
 }
 
 .footer li{
@@ -170,7 +276,6 @@ footer{
     background-color: hsla(202, 11%, 66%, 0.61);
 }
 
-/* media queries */
 @media screen and (max-width: 450px) {
     .container{
         width: 60%;
@@ -179,4 +284,5 @@ footer{
     .main-header{
         text-align: center;
     }
-}
+} 
+*/
